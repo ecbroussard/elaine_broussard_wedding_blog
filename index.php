@@ -1,11 +1,10 @@
-<DOCTYPE! html>
-<html lang="en"
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8"
-	<title>Elaine Broussard Blank Template</title>
+<title></title>
 </head>
 <body>
 	<h1>Blank WordPress Template</h1>
-	<p>This is my WordPress template.</p>
+    <p>This is my WordPress template.</p>
 </body>
 </html>
