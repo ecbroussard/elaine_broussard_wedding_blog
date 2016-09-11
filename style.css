@@ -8,6 +8,9 @@ License: Open
 Text Domain: elaine_broussard_blank_template
 */
 
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
 *{
     color: #000000;
     font-size: 14px;
