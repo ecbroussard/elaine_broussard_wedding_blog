@@ -3,8 +3,15 @@
 <!-- Begin Section Container -->
 	<section class="row">
 		<div class="twelve columns">
-			<h2>Section Content</h2>
-			<p>This is some cool section content.</p>
+			<!-- Begin Loop -->
+			<?php
+				if (have_posts() ) {
+					while (have_posts()) {
+						the_post();
+					} //end while
+				} //end if
+			?>
+			<!-- End Loop -->
 		</div>
 	</section>
 <!-- End Section Container-->
