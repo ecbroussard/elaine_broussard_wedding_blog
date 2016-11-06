@@ -2,10 +2,40 @@
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
-	/*-- Sidebar Widget --*/
+	/*-- First Sidebar Widget --*/
 	register_sidebar( array(
 		'name' 			=> ('First Widget'),
 		'id' 			=> 'first-widget',
+		'description' 	=> 'Widget for our sidebar on pages', 
+		'before_widget' => '<div class="widget-sidebar">', 
+		'after_widget' 	=> '</div>',
+		'before_title' 	=> '<h2>',
+		'after_title' 	=> '</h2>'						
+		));
+	/*-- Second Sidebar Widget --*/
+	register_sidebar( array(
+		'name' 			=> ('Second Widget'),
+		'id' 			=> 'second-widget',
+		'description' 	=> 'Widget for our sidebar on pages', 
+		'before_widget' => '<div class="widget-sidebar">', 
+		'after_widget' 	=> '</div>',
+		'before_title' 	=> '<h2>',
+		'after_title' 	=> '</h2>'						
+		));
+	/*-- Third Sidebar Widget --*/
+	register_sidebar( array(
+		'name' 			=> ('Third Widget'),
+		'id' 			=> 'third-widget',
+		'description' 	=> 'Widget for our sidebar on pages', 
+		'before_widget' => '<div class="widget-sidebar">', 
+		'after_widget' 	=> '</div>',
+		'before_title' 	=> '<h2>',
+		'after_title' 	=> '</h2>'						
+		));
+	/*-- Fourth Sidebar Widget --*/
+	register_sidebar( array(
+		'name' 			=> ('Fourth Widget'),
+		'id' 			=> 'fourth-widget',
 		'description' 	=> 'Widget for our sidebar on pages', 
 		'before_widget' => '<div class="widget-sidebar">', 
 		'after_widget' 	=> '</div>',
