@@ -73,3 +73,7 @@ a {
 .blank-menu-header ul li a:hover {
 	color: #cccccc;
 }
+
+#header-wrapper, #footer-wrapper {
+	background-color: blue;
+}

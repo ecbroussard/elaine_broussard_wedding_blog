@@ -9,17 +9,15 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 </head>
 <body>
-	<div class="container"> <!-- Begin Container Div -->
-		<header class="row">
-			<div class="twelve columns">
+	<div id="header-wrapper">
+			<div class="container">
+			<header class="row">
 				<h1><a href="<?php $url = home_url('/'); echo $url; ?>">	
 				<?php bloginfo('name'); ?>
 				</a></h1>
 	    		<h2><?php bloginfo('description'); ?></h2>
-	    	</div>
-		</header>
-		<div class="row">
-			<div class="twelve columns">
+			</header>
+			<div class="row">
 				<?php 
 					wp_nav_menu(array(
 						'sort_column' => 'menu_order', 
@@ -28,3 +26,5 @@
 				?>
 			</div>
 		</div>
+	</div>	
+	<div class="container"> <!-- Begin Container Div -->
