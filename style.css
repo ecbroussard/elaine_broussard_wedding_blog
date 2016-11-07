@@ -101,7 +101,7 @@ a:hover {
 .post-frame, .widget-sidebar {
 	border: 0.1em solid black;
 	margin-bottom: 1em;
-	padding: 1em;
+	padding: 3em;
 }
 
 #blog-title a {
@@ -139,6 +139,9 @@ a:hover {
 .post-title {
 	font-family: 'dayposterblack', Arial, sans-serif;
 	font-size: 250%;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 .post-title a {
@@ -153,6 +156,7 @@ a:hover {
 	font-family: 'blackjack', Arial, sans-serif;
 	font-weight: bold;
 	font-size: 120%;
+	text-align: center;
 }
 
 .date, .author {
@@ -162,6 +166,7 @@ a:hover {
 
 .tags {
 	margin-bottom: .5em;
+	text-align: center;
 }
 
 .tags a {
@@ -185,7 +190,7 @@ footer {
 	color: #3e2450;
 }
 
-footer h3, {
+.footer-wrapper h3, {
 	font-family: 'blackjack', Arial, sans-serif;
 	font-size: 250%;
 }
@@ -203,4 +208,13 @@ footer a {
 	font-size: 200%;
 	color: #3e2450;
 	text-align: center;
+}
+
+.post-frame img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0.1em solid black;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
