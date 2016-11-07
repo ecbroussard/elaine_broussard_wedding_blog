@@ -10,15 +10,35 @@ Text Domain: elaine_broussard_wedding_blog
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url("stylesheets/blackjack_regular/blackjack-stylesheet.css");
+@import url("stylesheets/dayposterblack_regular/dayposterblack-stylesheet.css");
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face{ 
+	font-family: 'blackjack';
+	src: url('blackjack-webfont.eot');
+	src: url('blackjack-webfont.eot?iefix') format('eot'),
+	     url('blackjack-webfont.woff') format('woff'),
+	     url('blackjack-webfont.ttf') format('truetype'),
+	     url('blackjack-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'dayposterblack';
+	src: url('dayposterblack-webfont.eot');
+	src: url('dayposterblack-webfont.eot?iefix') format('eot'),
+	     url('dayposterblack-webfont.woff') format('woff'),
+	     url('dayposterblack-webfont.ttf') format('truetype'),
+	     url('dayposterblack-webfont.svg#webfont') format('svg');
+}
 
 html, body {
-    color: #000000;
     font-size: 14px;
     line-height: 1.5em;
+	font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #999999;
 	font-weight: 700;
 }
 
@@ -43,35 +63,8 @@ h5 {
 }
 
 a {
-	color: red;
 	font-weight: 700;
 	text-decoration: none;
-}
-
-/*--- Menu --- */
-
-.blank-menu-header {
-	text-align: left;
-	margin-top: 40px;
-}
-.blank-menu-header ul {
-	margin: 0; 
-	padding: 0; 
-	list-style-type: none; 
-	list-style-image: none; 
-}
-.blank-menu-header li {
-	display: inline;
-}
-.blank-menu-header ul li a {
-	text-decoration:none;  
-	margin: 4px;
-	padding: 5px 0px 5px 40px; 
-	font-weight: 300;
-	font-size: 1.1rem;
-}
-.blank-menu-header ul li a:hover {
-	color: #cccccc;
 }
 
 #header-wrapper, #footer-wrapper {
@@ -83,7 +76,7 @@ a {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 0.2em solid black;
+	border: 0.1em solid black;
 	margin-bottom: 2.5em;
 }
 
@@ -95,7 +88,7 @@ a {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 0.2em solid black;
+	border: 0.1em solid black;
 }
 
 #footer-background {
@@ -106,5 +99,37 @@ a {
 }
 
 .post-frame {
-	border: 0.2em solid black;
+	border: 0.1em solid black;
+}
+
+#blog-title a {
+	font-family: 'blackjack', Arial, sans-serif;
+	color: #a494c3;
+	font-size: 350%;
+	-webkit-text-stroke: 2px #441f4f;
+}
+
+#navigationmain {
+	background-color: #441f4f;
+	padding-top: 2em;
+}
+
+#navigationmain ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+#navigationmain li {
+	display: inline;
+	padding: 1.5em;
+}
+
+#navigationmain li a {
+	color: #a494c3;
+	font-size: 200%;
+	font-family: 'dayposterblack', Arial, sans-serif;
+}
+
+#navigationmain li a:hover {
+	color: #98b467;
 }

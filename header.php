@@ -10,14 +10,15 @@
 </head>
 <body>
 	<div id="header-wrapper">
-			<div class="container">
+		<div class="container">
 			<header class="row">
-				<h1><a href="<?php $url = home_url('/'); echo $url; ?>">	
+				<h1 id="blog-title"><a href="<?php $url = home_url('/'); echo $url; ?>">	
 				<?php bloginfo('name'); ?>
 				</a></h1>
 	    		<h2><?php bloginfo('description'); ?></h2>
 			</header>
-			<div class="row">
+		</div>
+			<div class="row" id="navigationmain">
 				<?php 
 					wp_nav_menu(array(
 						'sort_column' => 'menu_order', 
@@ -25,6 +26,5 @@
 					));
 				?>
 			</div>
-		</div>
 	</div>	
 	<div class="container"> <!-- Begin Container Div -->
