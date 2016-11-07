@@ -1,6 +1,6 @@
 	</div> <!-- End Container Div -->
 	<div id="footer-wrapper">
-		<div class="container">
+		<div class="container" id="footer-background">
 			<footer class="row">
 				<div class="four columns">
 					<?php dynamic_sidebar('footer-one'); ?>

@@ -75,5 +75,36 @@ a {
 }
 
 #header-wrapper, #footer-wrapper {
-	background-color: blue;
+	background-color: #3e2450;
+}
+
+#header-wrapper {
+	background-image: url("images/headerimg.jpg");
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0.2em solid black;
+	margin-bottom: 2.5em;
+}
+
+#footer-wrapper {
+	margin-top: 2.5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background-image: url("images/footerimg.jpg");
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0.2em solid black;
+}
+
+#footer-background {
+	background-color: #a494c3;
+	padding: 2em;
+	opacity: 0.5;
+
+}
+
+.post-frame {
+	border: 0.2em solid black;
 }
