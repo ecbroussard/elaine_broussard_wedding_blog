@@ -24,7 +24,7 @@
 								}
 							?>
 							<?php the_excerpt(); ?>
-							<a href="<?php the_permalink(); ?>">Read More</a>
+							<a class="morebutton" href="<?php the_permalink(); ?>">Read More</a>
 						</div>
 						<?php	
 					} //end while
