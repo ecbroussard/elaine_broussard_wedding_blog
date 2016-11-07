@@ -18,7 +18,7 @@
 	    		<h2><?php bloginfo('description'); ?></h2>
 			</header>
 		</div>
-			<div class="row" id="navigationmain">
+			<div class="row navigationmain">
 				<?php 
 					wp_nav_menu(array(
 						'sort_column' => 'menu_order', 

@@ -1,5 +1,13 @@
 	</div> <!-- End Container Div -->
 	<div id="footer-wrapper">
+		<div class="row navigationmain">
+			<?php 
+				wp_nav_menu(array(
+					'sort_column' => 'menu_order', 
+					'container_class' => 'blank-menu-header'
+				));
+			?>
+		</div>
 		<div class="container" id="footer-background">
 			<footer class="row">
 				<div class="four columns">

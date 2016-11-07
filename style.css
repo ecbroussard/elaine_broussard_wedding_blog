@@ -85,9 +85,6 @@ a:hover {
 }
 
 #footer-wrapper {
-	margin-top: 2.5em;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
 	background-image: url("images/footerimg.jpg");
 	width: 90%;
 	margin-left: auto;
@@ -98,7 +95,7 @@ a:hover {
 #footer-background {
 	background-color: #a494c3;
 	padding: 2em;
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 .post-frame {
@@ -112,28 +109,28 @@ a:hover {
 	-webkit-text-stroke: 2px #441f4f;
 }
 
-#navigationmain {
+.navigationmain {
 	background-color: #441f4f;
 	padding-top: 2em;
 }
 
-#navigationmain ul {
+.navigationmain ul {
 	list-style-type: none;
 	text-align: center;
 }
 
-#navigationmain li {
+.navigationmain li {
 	display: inline;
 	padding: 1.5em;
 }
 
-#navigationmain li a {
+.navigationmain li a {
 	color: #a494c3;
 	font-size: 200%;
 	font-family: 'dayposterblack', Arial, sans-serif;
 }
 
-#navigationmain li a:hover {
+.navigationmain li a:hover {
 	color: #98b467;
 }
 
@@ -185,4 +182,17 @@ a:hover {
 	background-color: #3e2450;
 	padding: .4em;
 	font-size: 120%;
+}
+
+footer {
+	color: #3e2450;
+}
+
+footer h3 {
+	font-family: 'blackjack', Arial, sans-serif;
+	font-size: 250%;
+}
+
+footer a {
+	color: #3e2450;
 }
