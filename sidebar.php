@@ -1,4 +1,6 @@
-<?php dynamic_sidebar('first-widget'); ?>
-<?php dynamic_sidebar('second-widget'); ?>
-<?php dynamic_sidebar('third-widget'); ?>
-<?php dynamic_sidebar('fourth-widget'); ?>
+<div class="sidebar-content">
+	<?php dynamic_sidebar('first-widget'); ?>
+	<?php dynamic_sidebar('second-widget'); ?>
+	<?php dynamic_sidebar('third-widget'); ?>
+	<?php dynamic_sidebar('fourth-widget'); ?>
+</div>

@@ -98,8 +98,10 @@ a:hover {
 	opacity: 0.6;
 }
 
-.post-frame {
+.post-frame, .widget-sidebar {
 	border: 0.1em solid black;
+	margin-bottom: 1em;
+	padding: 1em;
 }
 
 #blog-title a {
@@ -132,11 +134,6 @@ a:hover {
 
 .navigationmain li a:hover {
 	color: #98b467;
-}
-
-.post-frame {
-	margin-bottom: 1em;
-	padding: 1em;
 }
 
 .post-title {
@@ -188,11 +185,22 @@ footer {
 	color: #3e2450;
 }
 
-footer h3 {
+footer h3, {
 	font-family: 'blackjack', Arial, sans-serif;
 	font-size: 250%;
 }
 
 footer a {
 	color: #3e2450;
+}
+
+.sidebar-content a {
+	color: #3e2450;
+}
+
+.sidebar-content h2 {
+	font-family: 'dayposterblack', Arial, sans-serif;
+	font-size: 200%;
+	color: #3e2450;
+	text-align: center;
 }
