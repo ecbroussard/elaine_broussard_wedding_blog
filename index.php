@@ -30,6 +30,13 @@
 					} //end while
 				} //end if
 			?>
+			<!-- Add the pagination functions here. -->
+			<div class="row">
+				<div class="twelve columns">
+					<div class="nav-previous alignleft pagination"><?php next_posts_link( 'Older posts -->>' ); ?></div>
+					<div class="nav-next alignright pagination"><?php previous_posts_link( '<<-- Newer posts' ); ?></div>
+				</div>
+			</div>
 			<!-- End Loop -->
 		</div>
 		<div class="four columns">

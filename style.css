@@ -33,8 +33,8 @@ Text Domain: elaine_broussard_wedding_blog
 }
 
 html, body {
-    font-size: 14px;
-    line-height: 1.5em;
+/*    font-size: 14px;
+    line-height: 1.5em;*/
 	font-family: 'Lato', sans-serif;
 }
 
@@ -77,15 +77,19 @@ a:hover {
 
 #header-wrapper {
 	background-image: url("images/headerimg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	border: 0.1em solid black;
-	margin-bottom: 2.5em;
+	margin-bottom: 1.5em;
 }
 
 #footer-wrapper {
 	background-image: url("images/footerimg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -95,13 +99,14 @@ a:hover {
 #footer-background {
 	background-color: #a494c3;
 	padding: 2em;
-	opacity: 0.6;
+	background: rgb(164, 148, 195); /* Fallback for older browsers without RGBA-support */
+    background: rgba(164, 148, 195, 0.5);
 }
 
 .post-frame, .widget-sidebar {
 	border: 0.1em solid black;
 	margin-bottom: 1em;
-	padding: 3em;
+	padding: 2em;
 }
 
 #blog-title a {
@@ -113,7 +118,7 @@ a:hover {
 
 .navigationmain {
 	background-color: #441f4f;
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 .navigationmain ul {
@@ -128,7 +133,7 @@ a:hover {
 
 .navigationmain li a {
 	color: #a494c3;
-	font-size: 200%;
+	font-size: 175%;
 	font-family: 'dayposterblack', Arial, sans-serif;
 }
 
@@ -190,7 +195,7 @@ footer {
 	color: #3e2450;
 }
 
-.footer-wrapper h3, {
+.widget-footer h3, {
 	font-family: 'blackjack', Arial, sans-serif;
 	font-size: 250%;
 }
@@ -217,4 +222,44 @@ footer a {
 	border: 0.1em solid black;
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+.sidebar-content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0.1em solid black;
+	margin-bottom: 1em;
+}
+
+.widget-right ul {
+	list-style-type: none;
+}
+
+.widget-right li {
+	display: inline;
+	padding-right: .7em;
+}
+
+.sidebar-content input {
+	background-color: #a494c3;
+}
+
+.tagcloud a {
+	color: #a494c3;
+	background-color: #3e2450;
+	padding: 5px;
+	margin: 5px;
+}
+
+.pagination a {
+	display: inline-block;
+	font-family: 'blackjack', Arial, sans-serif;
+	color: #3e2450;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: #a494c3;
+	padding: .2em;
+	margin-bottom: .5em;
+	border: .1em solid #3e2450;;
 }
