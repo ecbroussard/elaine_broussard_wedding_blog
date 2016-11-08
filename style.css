@@ -16,25 +16,23 @@ Text Domain: elaine_broussard_wedding_blog
 
 @font-face{ 
 	font-family: 'blackjack';
-	src: url('blackjack-webfont.eot');
-	src: url('blackjack-webfont.eot?iefix') format('eot'),
-	     url('blackjack-webfont.woff') format('woff'),
-	     url('blackjack-webfont.ttf') format('truetype'),
-	     url('blackjack-webfont.svg#webfont') format('svg');
+	src: url('stylesheets/blackjack_regular/blackjack-webfont.eot');
+	src: url('stylesheets/blackjack_regular/blackjack-webfont.eot?iefix') format('eot'),
+	     url('stylesheets/blackjack_regular/blackjack-webfont.woff') format('woff'),
+	     url('stylesheets/blackjack_regular/blackjack-webfont.ttf') format('truetype'),
+	     url('stylesheets/blackjack_regular/blackjack-webfont.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'dayposterblack';
-	src: url('dayposterblack-webfont.eot');
-	src: url('dayposterblack-webfont.eot?iefix') format('eot'),
-	     url('dayposterblack-webfont.woff') format('woff'),
-	     url('dayposterblack-webfont.ttf') format('truetype'),
-	     url('dayposterblack-webfont.svg#webfont') format('svg');
+	src: url('stylesheets/dayposterblack_regular/dayposterblack-webfont.eot');
+	src: url('stylesheets/dayposterblack_regular/dayposterblack-webfont.eot?iefix') format('eot'),
+	     url('stylesheets/dayposterblack_regular/dayposterblack-webfont.woff') format('woff'),
+	     url('stylesheets/dayposterblack_regular/dayposterblack-webfont.ttf') format('truetype'),
+	     url('stylesheets/dayposterblack_regular/dayposterblack-webfont.svg#webfont') format('svg');
 }
 
 html, body {
-/*    font-size: 14px;
-    line-height: 1.5em;*/
 	font-family: 'Lato', sans-serif;
 }
 
@@ -113,7 +111,6 @@ a:hover {
 	font-family: 'blackjack', Arial, sans-serif;
 	color: #a494c3;
 	font-size: 350%;
-	-webkit-text-stroke: 2px #441f4f;
 }
 
 .navigationmain {
@@ -195,7 +192,7 @@ footer {
 	color: #3e2450;
 }
 
-.widget-footer h3, {
+.widget-footer h3 {
 	font-family: 'blackjack', Arial, sans-serif;
 	font-size: 250%;
 }
@@ -208,14 +205,14 @@ footer a {
 	color: #3e2450;
 }
 
-.sidebar-content h2 {
+.sidebar-content h2, .page-content h2, .archive-page h2 {
 	font-family: 'dayposterblack', Arial, sans-serif;
 	font-size: 200%;
 	color: #3e2450;
 	text-align: center;
 }
 
-.post-frame img {
+.post-frame img, .post-page img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -262,4 +259,20 @@ footer a {
 	padding: .2em;
 	margin-bottom: .5em;
 	border: .1em solid #3e2450;;
+}
+
+.archive-page a {
+	color: #3e2450;
+}
+
+.archive-wrapper {
+	border: 0.1em solid black;
+	padding: 1em;
+}
+
+.post-page h2 {
+	color: #3e2450;	
+	font-family: 'blackjack', Arial, sans-serif;
+	font-size: 250%;
+	text-align: center;
 }

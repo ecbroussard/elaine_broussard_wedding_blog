@@ -2,7 +2,7 @@
 
 <!-- Begin Section Container -->
 	<section class="row">
-		<div class="twelve columns">
+		<div class="twelve columns post-page">
 			<!-- Begin Loop -->
 			<?php
 				if (have_posts() ) {
